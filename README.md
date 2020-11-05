@@ -2,6 +2,8 @@
 
 ## structure
 
+* In this repo we will cover all codes and revision needed for quick brush up for concepts.
+* so that when we need to visit it its availavek
 1. COnditional statements
   1.1 for loop
   1.2 If loop
