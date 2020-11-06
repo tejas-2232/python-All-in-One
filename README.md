@@ -33,6 +33,13 @@ _The Structure is like_
        else: 
           print("access denied")    
        ```
-
-</p>
+Let's check what is if...else loop.
+  ```py
+  if condition-1:
+        sequence of statements-1
+  elif condition-n:
+        sequence of statements-n
+  else:
+        default sequence of statements
+  ```
 
