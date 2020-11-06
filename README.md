@@ -45,3 +45,5 @@ Let's check what is if...else loop.
 
 Now, let's try to put college grades into use and understand how we can put the grades
 through programming:
+
+|-------|-------|-----|
