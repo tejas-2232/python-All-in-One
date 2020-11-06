@@ -1,6 +1,6 @@
 # python-All-in-One 
 
-# Tagline- _Do not copy paste while Learning
+# Tagline- _Do not copy paste while Learning_
 
 ## structure
 
@@ -10,8 +10,8 @@
 
 _The Structure is like_
 1. Conditional statements
-  1.1 for loop
-  1.2 If loop
+  1.1 If loop
+  1.2 for loop
   1.3 while loop
   
 2.Strings 
@@ -21,3 +21,18 @@ _The Structure is like_
 5. functions and files
 6.memorizing logic
 7. 
+
+
+1. Conditional statements<br>
+1.1 If else Loop: 
+       
+       ```  
+       password = raw_input("Enter the password")
+       if password =="MI6":
+          print("welcome Mr.bond")
+       else: 
+          print("access denied")    
+       ```
+
+</p>
+
