@@ -46,4 +46,9 @@ Let's check what is if...else loop.
 Now, let's try to put college grades into use and understand how we can put the grades
 through programming:
 
-|-------|-------|-----|
+| Grdaes | Score |
+|--------|-------|
+|   A    |All grades above 4|
+|   B    |All grades above 3 and below 3.5 |
+|   C    |All grades above 2.5 and below3  |
+|   D    | All Grades below 2.5 |
