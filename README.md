@@ -52,3 +52,19 @@ through programming:
 |   B    |All grades above 3 and below 3.5 |
 |   C    |All grades above 2.5 and below3  |
 |   D    | All Grades below 2.5 |
+
+<br>
+
+```py
+ num = float(input("Enter the number:"))
+
+ if num > 4:
+     letter = "A"
+ elif num > 3:
+    letter = "B"
+ elif num > 2:
+    letter = "C"
+ else: 
+    letter = "D"   
+ print("The grade is",letter)       
+```
