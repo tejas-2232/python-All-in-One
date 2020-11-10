@@ -43,6 +43,17 @@ Let's check what is if...else loop.
         default sequence of statements
   ```
 
+The conditionals can also be represented by following code snippet.<br>
+
+```py
+if cake == "delicious":
+   return "Yes please"
+elif cake == "Okay":
+   return "I will have a small piece"
+else:
+   return "No,Thank You"
+```
+
 Now, let's try to put college grades into use and understand how we can put the grades
 through programming:
 
