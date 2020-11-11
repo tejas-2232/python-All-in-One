@@ -13,17 +13,19 @@ _The Structure is like_
   1.1 If loop
   1.2 for loop
   1.3 while loop
-  
-2.Strings 
 
-3.Reading files
-4. functions and variables
+2. Functions and variables  
+ 
+
+3. Reading files
+4. Strings
 5. functions and files
-6.memorizing logic
+6. memorizing logic
 7. 
 
 
 1. Conditional statements<br>
+
 1.1 If else Loop: 
        
        ```  
@@ -91,7 +93,7 @@ for item in list:
 
 It prints all the items in list
 
-suppose, list=[1,2,3,4,5,6], "item" is ne variable created at runtime. Then it is referenced to array(list) index and printed using {print item} line.<br>
+suppose, list=[1,2,3,4,5,6], "item" is new variable created at runtime. Then it is referenced to array(list) index and printed using {print item} line.<br>
 
 The output is=> [1,2,3,4,5,6] 
 
@@ -107,3 +109,7 @@ while (total < max_val):
    i+=2  # i is incremented by two. Due to this condition becomes false & loop terminates. 
       
 ```
+
+2. Functions
+
+Let's try to understand functions in ne way.
