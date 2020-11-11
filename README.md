@@ -91,4 +91,19 @@ for item in list:
 
 It prints all the items in list
 
-suppose, list=[1,2,3,4,5,6], "item" is ne variable created at runtime. Then it is referenced to array(list) index and printed using {print item} line
+suppose, list=[1,2,3,4,5,6], "item" is ne variable created at runtime. Then it is referenced to array(list) index and printed using {print item} line.<br>
+
+The output is=> [1,2,3,4,5,6] 
+
+1.3 While Loop:
+
+While loop is run until the condition is true. When it becomes FALSE the loop terminates. <br>
+
+for example:
+
+```py
+while (total < max_val):
+   total += values[i]
+   i+=2  # i is incremented by two. Due to this condition becomes false & loop terminates. 
+      
+```
