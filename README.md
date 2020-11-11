@@ -79,3 +79,16 @@ through programming:
     letter = "D"   
  print("The grade is",letter)       
 ```
+
+1.2 For Loop:
+
+The simple example of for loop can be given as:
+
+```py
+for item in list:
+   print item
+```
+
+It prints all the items in list
+
+suppose, list=[1,2,3,4,5,6], "item" is ne variable created at runtime. Then it is referenced to array(list) index and printed using {print item} line
