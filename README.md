@@ -122,3 +122,12 @@ def divide(dividend, divisor):
 ```
 
 __This is the generalised code for division. Here,the primary goal is to understand how functions work.__  _Functions are nothing but blocks of code which when called run the block with provided parameters and returns data as a result._
+
+__How to call function__: Function can be called using their name and parenthesis.
+For example:
+
+```py
+divide(25,5)
+# here it takes two params hence we passed 25 and 5
+```
+
