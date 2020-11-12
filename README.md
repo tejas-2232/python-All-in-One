@@ -24,9 +24,9 @@ _The Structure is like_
 7. 
 
 
-1. Conditional statements<br>
+__1. Conditional statements<br>__
 
-1.1 If else Loop: 
+_1.1 If else Loop:_ 
        
        ```  
        password = raw_input("Enter the password")
@@ -82,7 +82,7 @@ through programming:
  print("The grade is",letter)       
 ```
 
-1.2 For Loop:
+_1.2 For Loop:_
 
 The simple example of for loop can be given as:
 
@@ -97,7 +97,7 @@ suppose, list=[1,2,3,4,5,6], "item" is new variable created at runtime. Then it 
 
 The output is=> [1,2,3,4,5,6] 
 
-1.3 While Loop:
+_1.3 While Loop:_
 
 While loop is run until the condition is true. When it becomes FALSE the loop terminates. <br>
 
@@ -110,6 +110,15 @@ while (total < max_val):
       
 ```
 
-2. Functions
+__2. Functions__
 
-Let's try to understand functions in ne way.
+Let's try to understand functions in new way.
+
+```py
+def divide(dividend, divisor):
+      quotient = dividend/divisor
+      remainder = divident % divisor
+      return quotient, remainder
+```
+
+__This is the generalised code for division. Here,the primary goal is to understand how functions work.__  _Functions are nothing but blocks of code which when called run the block with provided parameters and returns data as a result._
