@@ -131,3 +131,18 @@ divide(25,5)
 # here it takes two params hence we passed 25 and 5
 ```
 
+__3. Classes:__
+
+Class is something that it's like a home to functions and objects.
+Class bundles data and functionality together.
+
+For Ex:
+
+```py
+   def __init__(self,name,age):
+      self.name = name
+      self.age = age
+
+   def birthday(self):
+      self.age +=1   
+```
