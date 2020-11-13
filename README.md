@@ -16,12 +16,12 @@ _The Structure is like_
 
 2. Functions and variables  
  
-
-3. Reading files
-4. Strings
-5. functions and files
-6. memorizing logic
-7. 
+3. Classes
+4. Reading files
+5. Strings
+6. functions and files
+7. memorizing logic
+ 
 
 
 __1. Conditional statements<br>__
