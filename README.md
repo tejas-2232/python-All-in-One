@@ -25,6 +25,17 @@ _The Structure is like_
 8. memorizing logic
  
 
+__1.Data Types__
+
+There are seven data types in python. Let's have a look at them with direct examaple for better understanding.<br>
+
+boolean = True
+
+number = 1.1
+
+string = "Strings can be declared with single or double quotes."
+
+
 
 __2. Conditional statements<br>__
 
