@@ -9,24 +9,26 @@
 * so that when we need to visit the concepts,its available for us.
 
 _The Structure is like_
-1. Conditional statements
-  1.1 If loop
-  1.2 for loop
-  1.3 while loop
 
-2. Functions and variables  
+1. Data Types
+2. Conditional statements
+  2.1 If loop
+  2.2 for loop
+  2.3 while loop
+
+3. Functions and variables  
  
-3. Classes
-4. Reading files
-5. Strings
-6. functions and files
-7. memorizing logic
+4. Classes
+5. Reading files
+6. Strings
+7. functions and files
+8. memorizing logic
  
 
 
-__1. Conditional statements<br>__
+__2. Conditional statements<br>__
 
-_1.1 If else Loop:_ 
+_2.1 If else Loop:_ 
        
        ```  
        password = raw_input("Enter the password")
@@ -82,7 +84,7 @@ through programming:
  print("The grade is",letter)       
 ```
 
-_1.2 For Loop:_
+_2.2 For Loop:_
 
 The simple example of for loop can be given as:
 
@@ -97,7 +99,7 @@ suppose, list=[1,2,3,4,5,6], "item" is new variable created at runtime. Then it 
 
 The output is=> [1,2,3,4,5,6] 
 
-_1.3 While Loop:_
+_2.3 While Loop:_
 
 While loop is run until the condition is true. When it becomes FALSE the loop terminates. <br>
 
@@ -110,7 +112,7 @@ while (total < max_val):
       
 ```
 
-__2. Functions__
+__3. Functions__
 
 Let's try to understand functions in new way.
 
@@ -131,7 +133,7 @@ divide(25,5)
 # here it takes two params hence we passed 25 and 5
 ```
 
-__3. Classes:__
+__4. Classes:__
 
 Class is something that it's like a home to functions and objects.
 Class bundles data and functionality together.
