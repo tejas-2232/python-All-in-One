@@ -142,6 +142,9 @@ For example:
 ```py
 divide(25,5)
 # here it takes two params hence we passed 25 and 5
+
+divide(45,5)
+# here also it takes 2 parameters
 ```
 
 __4. Classes:__
