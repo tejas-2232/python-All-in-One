@@ -145,4 +145,14 @@ For Ex:
 
    def birthday(self):
       self.age +=1   
-```
+```  
+
+```py
+
+   def __init__(self,color,model,price):
+      self.color = color
+      self.model = model
+      self.price = price
+   
+   def car_loan(self):
+```         
