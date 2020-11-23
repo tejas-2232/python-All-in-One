@@ -1,5 +1,4 @@
 # python-All-in-One 
-
 # Tagline- _Do not copy paste while Learning_
 
 ## structure
@@ -163,12 +162,9 @@ For Ex:
       self.age +=1   
 ```  
 
-```py
+#### The next sections for the course are:
 
-   def __init__(self,color,model,price):
-      self.color = color
-      self.model = model
-      self.price = price
-   
-   def car_loan(self):
-```         
+1. List based collections
+2. Searching and Sorting
+3. Maps and Hashing
+
