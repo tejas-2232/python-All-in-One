@@ -167,4 +167,7 @@ For Ex:
 1. List based collections
 2. Searching and Sorting
 3. Maps and Hashing
-
+4. Trees
+5. Graphs
+6. Case Studies in Algorithms
+7. Technical Interview Tips
