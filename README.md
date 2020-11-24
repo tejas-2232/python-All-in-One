@@ -169,12 +169,20 @@ For Ex:
 #### The next sections for the course are:
 
 1. List based collections
-   1.1 Lists/Arrays
-   1.2 Linked Lists
-   1.3 Stacks
-   1.4 Queues
-   
+
+   1.1 Lists/Arrays<br>
+   1.2 Linked Lists<br>
+   1.3 Stacks<br>
+   1.4 Queues<br>
+
 2. Searching and Sorting
+
+   2.1 Binary Search<br>
+   2.2 Recursion<br>
+   2.3 Bubble Sort<br>
+   2.4 Merge Sort<br>
+   2.5 Quick Sort<br>
+
 3. Maps and Hashing
 4. Trees
 5. Graphs
