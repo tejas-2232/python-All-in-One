@@ -199,3 +199,5 @@ __1. List based collections:__ <br>
    You likely won't need to know the details of how Python works behind the scenes in a programming interview, but you'll seem very impressive if you do!
 
    </p>
+
+__1.2 Linked Lists:__ <p>Linked List is extension of list but it's definitely not an array. A Linked List is characterised by it's links. Each elements has some notion of what the next element is since it's connected to it, but not necessarily how long the list is or where it is in the list. </p>
