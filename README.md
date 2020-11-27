@@ -208,3 +208,11 @@ __1.2 Linked Lists:__ <p>
 * Linked list has a memory location of next block for traversing purpose and that block has memory location of next block and so on.<br>
 * The blocks in linked list should be connected and if any link is missing then traversing becomes difficult.
  </p>
+ 
+ ```py
+ class Element(object):
+   def __init__(self, value):
+      self.value = value
+        
+        self.next = None
+```
