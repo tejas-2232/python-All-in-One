@@ -208,6 +208,7 @@ __1.2 Linked Lists:__ <p>
 * Linked list has a memory location of next block for traversing purpose and that block has memory location of next block and so on.<br>
 * The blocks in linked list should be connected and if any link is missing then traversing becomes difficult.
  </p>
+ There isn't a built-in data structure in Python that looks like a linked list. Thankfully, it's easy to make classes that represent data structures in Python!
 
  Single unit linked list examaple
 
