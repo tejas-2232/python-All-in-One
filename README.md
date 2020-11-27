@@ -200,4 +200,11 @@ __1. List based collections:__ <br>
 
    </p>
 
-__1.2 Linked Lists:__ <p>Linked List is extension of list but it's definitely not an array. A Linked List is characterised by it's links. Each elements has some notion of what the next element is since it's connected to it, but not necessarily how long the list is or where it is in the list. </p>
+__1.2 Linked Lists:__ <p>
+* Linked List is extension of list but it's definitely not an array. A Linked List is characterised by it's links. 
+* Each elements has some notion of what the next element is since it's connected to it, but not necessarily how long the list is or where it is in the list. </p> 
+<p>
+
+* Linked list has a memory location of next block for traversing purpose and that block has memory location of next block and so on.<br>
+* The blocks in linked list should be connected and if any link is missing then traversing becomes difficult.
+ </p>
