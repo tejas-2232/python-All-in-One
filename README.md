@@ -230,3 +230,18 @@ class LinkedList(object):
 ```
 
 * This code is very similar— we're just establishing that a __LinkedList__ is something that has a __head__ Element, which is the first element in the list. If we establish a __new LinkedList without a head__, it will default to __None__. 
+
+**Let's build one method to append new elements at end of LinkedList**
+
+```py
+class append(self,new_element):
+      current = self.head
+
+      if self.head:
+         while current.next:
+            current = current.next
+         current.next = new_element
+      else:
+         self.head = new_element
+
+```
