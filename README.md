@@ -246,3 +246,5 @@ class append(self,new_element):
 
 ```
 * If LinkedList already has a ```head```, we iterate through the ```next``` reference in every ```Element ```until we reach the end of the list.
+
+* Set ```next``` for the end of the list to the ```new_element```. Alternatively, if there is no head already, you should just assign new_element to it and do nothing else.
