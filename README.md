@@ -245,3 +245,4 @@ class append(self,new_element):
          self.head = new_element
 
 ```
+* If LinkedList already has a ```head```, we iterate through the ```next``` reference in every ```Element ```until we reach the end of the list.
