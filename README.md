@@ -220,3 +220,13 @@ __1.2 Linked Lists:__ <p>
         self.next = None
 ```
 Before moving on lets understand it. We use ``` __init__``` to initialize a new ``` Element ```. An Element has some value associated with it (which could be anything—a number, a string, a character, et cetera), and it has a variable that points to the next element in the linked list. 
+
+**Let's see how to setup ```LinkedList``` class**
+
+```py
+class LinkedList(object):
+      def __init__(self,head=None):
+         self.head = head
+```
+
+* This code is very similar— we're just establishing that a __LinkedList__ is something that has a __head__ Element, which is the first element in the list. If we establish a __new LinkedList without a head__, it will default to __None__. 
