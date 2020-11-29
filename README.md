@@ -216,8 +216,7 @@ __1.2 Linked Lists:__ <p>
  class Element(object):
    def __init__(self, value):
       self.value = value
-        
-        self.next = None
+      self.next = None
 ```
 Before moving on lets understand it. We use ``` __init__``` to initialize a new ``` Element ```. An Element has some value associated with it (which could be anything—a number, a string, a character, et cetera), and it has a variable that points to the next element in the linked list. 
 
