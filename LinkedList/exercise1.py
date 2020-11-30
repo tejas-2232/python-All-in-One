@@ -17,6 +17,15 @@ class LinkedList(object):
         else:
             self.head = new_element        
 
-    def get_position(self, posotion):
+    def get_position(self,position):
+        counter= 1
+        current= self.head
 
-        current = self.head
+        if position<1:
+            return None
+        while current and counter <= position:
+            if counter == position:
+                return current
+            current = current.next
+            counter +=1
+        return None
