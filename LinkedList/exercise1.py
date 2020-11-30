@@ -29,3 +29,6 @@ class LinkedList(object):
             current = current.next
             counter +=1
         return None
+
+    def insert(self,new_element,position):
+        
