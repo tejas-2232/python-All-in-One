@@ -43,3 +43,24 @@ class LinkedList(object):
         elif position == 1:
             new_element.next = self.head
             self.head = new_element        
+
+    def delete(self,value):
+        current= self.head
+        previous = None
+        while current.value != value and current.next:
+            previous = current
+            current = current.next
+        if current.value==value:
+            if previous:
+                previous.next = current.next
+            else:
+                self.head = current.head
+
+e1 = Element(5)
+e2 = Element(21)
+e3 = Element(4)
+e4 = Element(8)
+
+ll = LinkedList(e1)
+ll.append(e2)
+ll.append(e3)
