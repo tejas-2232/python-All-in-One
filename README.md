@@ -247,3 +247,15 @@ class append(self,new_element):
 * If LinkedList already has a ```head```, we iterate through the ```next``` reference in every ```Element ```until we reach the end of the list.
 
 * Set ```next``` for the end of the list to the ```new_element```. Alternatively, if there is no head already, you should just assign new_element to it and do nothing else.
+
+
+**1.3 Stacks:** <p>Stack is a data structure in python which is based on LIFO( Last In First Out). 
+It has two methods <br>
+* push()
+* pop()
+
+**_push()_** is used when we need to add element in stack.
+
+Similarly, when we need to remove an element from stack we use **_pop()_** method.
+
+ </p>
