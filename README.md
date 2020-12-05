@@ -270,5 +270,7 @@ A quick example to visualize is queue of person at ticket box. The person who co
 
 </p>
 
+2. Dequeue: <p> The operation of removing elements from queue is called Dequeue. The items are removed in same fashion as they have entered in queue. </p>
+
 </p> 
 
