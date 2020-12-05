@@ -262,4 +262,13 @@ Similarly, when we need to remove an element from stack we use **_pop()_** metho
 
 **1.4 Queues:** <p> Unlike stack queue is a linear data structure that stores elements is FIFO order i.e First In First Out. The recently added item in Queue is removed last.
 A quick example to visualize is queue of person at ticket box. The person who comes first is served first and the last one is served last.
+
+
+*Operations in Queue:*
+
+1. Enqueue: <p> In this operation we add elements to queue. If the queue is full then it's called as overflow.
+
+</p>
+
 </p> 
+
