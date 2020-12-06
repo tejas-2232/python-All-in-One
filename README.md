@@ -264,7 +264,7 @@ Similarly, when we need to remove an element from stack we use **_pop()_** metho
 A quick example to visualize is queue of person at ticket box. The person who comes first is served first and the last one is served last.
 
 
-*Operations in Queue:*
+__Operations in Queue:__
 
 1. Enqueue: <p> In this operation we add elements to queue. If the queue is full then it's called as overflow.
 
@@ -274,3 +274,4 @@ A quick example to visualize is queue of person at ticket box. The person who co
 
 </p> 
 
+__Priority Queue :__ Priority queue is also type of queue in which less popular elements are placed in front and more popular elements are place at the back.
