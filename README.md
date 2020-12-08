@@ -280,4 +280,10 @@ __Priority Queue :__ Priority queue is also type of queue in which less popular 
 
 ## 2. Searching and Sorting
 
+<p> 
+
+* In order to implement algorithms in programming languages, you will need to understand an algorithm in detailed.
+
+* Human may know how algorithm works but we need the computers to know how algorithms work as computers are going to execute it.
+</p>
 __2.1 Binary Search:<br>__ <p> Binary search is the efficient algorithm for finding an item from sorted or unsorted array. The most common ways to use binary search is to find an item in array. Basically an algorithm is just high level description of a trick of solving a problem.  </p>
