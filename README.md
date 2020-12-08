@@ -293,4 +293,10 @@ __2.1 Binary Search:<br>__ <p>
 
 * If all the names in the world are written down together in order and you want to search for the position of a specific name, binary search will accomplish this in a maximum of 35  iterations. 
 * It works on only sorted set of elements.
+* while performing opearion on binary search, the total number of iterations may vary depending upon the number to be searched.
+
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/d90e6d2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 </p>
