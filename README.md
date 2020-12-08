@@ -297,6 +297,6 @@ __2.1 Binary Search:<br>__ <p>
 
 <img src="https://he-s3.s3.amazonaws.com/media/uploads/d90e6d2.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+      />
 
 </p>
