@@ -296,8 +296,14 @@ __2.1 Binary Search:__ <p>
 * It works on only sorted set of elements.
 * while performing opearion on binary search, the total number of iterations may vary depending upon the number to be searched.
 
+* Let's consider following array:
+
 <img src="https://he-s3.s3.amazonaws.com/media/uploads/d90e6d2.png"
      alt="Markdown Monster icon"
       />
+
+
+* By using linear search, the position of element 8 will be determined in the 9th iteration.
+
 
 </p>
