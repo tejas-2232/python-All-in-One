@@ -307,4 +307,10 @@ __2.1 Binary Search:__ <p>
 
 * Let's see how to reduce the number of iterations using binary search. For that we need to knoe the start and end of the range. Let's call them ```Low``` and ```High```
 
+
+```py
+
+Low  = 0
+High = n-1
+```
 </p>
