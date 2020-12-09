@@ -321,4 +321,6 @@ High = n-1
 
 * As per above image, Lower bound = 0. The median is calculated as (lower bound + upper bound) \2 =4.
 * Value of a[4]=4. The value 4>2, and this is the element you are searching for.
+
+* Hence, no need to conduct search on any element beyond 4 as the elements beyond it will obviously be greater than 2.
 </p>
