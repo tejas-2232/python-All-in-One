@@ -319,5 +319,6 @@ High = n-1
 
 <img src= "https://he-s3.s3.amazonaws.com/media/uploads/0e5218d.png">
 
-
+* As per above image, Lower bound = 0. The median is calculated as (lower bound + upper bound) \2 =4.
+* Value of a[4]=4. The value 4>2, and this is the element you are searching for.
 </p>
