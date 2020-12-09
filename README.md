@@ -313,4 +313,7 @@ __2.1 Binary Search:__ <p>
 Low  = 0
 High = n-1
 ```
+* Now we compare the Search value *K* with the element located at the center of lower bound and upper bound.
+
+* If value of *K* is greater then increase the lower bound else decrease the lower bound.
 </p>
