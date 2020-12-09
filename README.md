@@ -316,4 +316,8 @@ High = n-1
 * Now we compare the Search value *K* with the element located at the center of lower bound and upper bound.
 
 * If value of *K* is greater then increase the lower bound else decrease the lower bound.
+
+<img src= "https://he-s3.s3.amazonaws.com/media/uploads/0e5218d.png">
+
+
 </p>
