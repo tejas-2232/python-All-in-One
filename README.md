@@ -331,6 +331,6 @@ Low:  0
 High: 3
 ```
 
-
+* Repeat the procedure until Low > High.
 
 </p>
