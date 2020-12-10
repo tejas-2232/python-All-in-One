@@ -323,4 +323,14 @@ High = n-1
 * Value of a[4]=4. The value 4>2, and this is the element you are searching for.
 
 * Hence, no need to conduct search on any element beyond 4 as the elements beyond it will obviously be greater than 2.
+
+* Therefore, we can drop the upper bound of the array to position of element 4. Now we follow the same procedure on the same array with following values.
+
+```py
+Low:  0
+High: 3
+```
+
+
+
 </p>
