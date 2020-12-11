@@ -332,5 +332,17 @@ High: 3
 ```
 
 * Repeat the procedure until Low > High.
+* If at any iteration we get a[mid] = key, we return value of mid. This is the position of key in array. If key is not present in array, we return -1. 
+
+* Let's have a look at implementation.
+
+```py
+
+int binarySearch(int low,int high, int key):
+{
+   while(low <= high)
+}
+
+```
 
 </p>
