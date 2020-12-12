@@ -382,6 +382,9 @@ __Python Program for recursive binary Search:__
 
 def binary_search(arr,low,high,x):
 
-   if high >= low:
+   if high >= low: #base case
+
+      #calculate mid
+      mid =(low+high)//2 
 ```
 </p>
