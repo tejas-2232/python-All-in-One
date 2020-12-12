@@ -363,5 +363,9 @@ int binarySearch(int low,int high, int key):
 ```
 
 __Time complexity:__ Worst case time complexity is *O*(log<sub>2</sub>N). 
-
 </p>
+
+
+__Python Program for recursive binary Search:__
+
+<p> </p>
