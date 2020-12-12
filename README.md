@@ -378,5 +378,10 @@ __Python Program for recursive binary Search:__
 
 4. Else if x is smaller, the target x must lie in the left (lower) half. So we apply the algorithm for the left half.
 
+```py
 
+def binary_search(arr,low,high,x):
+
+   if high >= low:
+```
 </p>
