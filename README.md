@@ -386,5 +386,13 @@ def binary_search(arr,low,high,x):
 
       #calculate mid
       mid =(low+high)//2 
+
+      #If element is present at the middle
+      if arr[mid]==x:
+         return mid
+      #if element is smalleer than mid then it can only be present at the left side
+      if arr[mid] > x:
+         return binary_search(arr,low,mid-1,x)
+
 ```
 </p>
