@@ -415,6 +415,9 @@ if result != -1:
 else:
    print("Element is not present in array")
 
+
+# output: Element is present at index 3
 ```
 
+__Iterative approach:__
 </p>
