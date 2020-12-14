@@ -402,5 +402,19 @@ def binary_search(arr,low,high,x):
    else:
       return -1 #element is not present in the array.       
 
+#test array
+arr=[2,3,4,10,40]
+
+x=10
+
+#make function call
+result= binary_search(arr,0,len(arr)-1,x)
+
+if result != -1:
+   print("Element is present at index", str(result))
+else:
+   print("Element is not present in array")
+
 ```
+
 </p>
