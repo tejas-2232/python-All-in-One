@@ -421,3 +421,8 @@ else:
 
 __Iterative approach:__
 </p>
+
+__2.2 Recurssion:__ 
+
+
+__2.3 Bubble Sort:__
