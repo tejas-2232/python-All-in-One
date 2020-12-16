@@ -418,11 +418,13 @@ else:
 
 # output: Element is present at index 3
 ```
-
-__Iterative approach:__
 </p>
 
-__2.2 Recurssion:__ 
+__2.2 Recursion:__ 
+
+* Recursion is process of defining something in terms of itself.
+
+* In real world for ex we can take two mirrors facing each other.Any object between them would be reflected recursively.
 
 
 __2.3 Bubble Sort:__
