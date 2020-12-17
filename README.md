@@ -435,6 +435,25 @@ The following image shows working of recursive function.
 
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/python-recursion-function.png">
 
+
+* Let's see the example of factorial which is a recursive function.
+
+Example:
+
+```py
+def factorial(x):
+
+   if x ==1:
+      return 1
+   else:
+      return (x*factorial(x-1))
+      
+num=4
+print("Factorial of ",num,"is",factorial(num))
+
+```
+**Output:**
+Factorial of 4 is 24
 </p>
 
 
