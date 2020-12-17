@@ -450,7 +450,6 @@ def factorial(x):
       
 num=4
 print("Factorial of ",num,"is",factorial(num))
-
 ```
 **Output:**
 Factorial of 4 is 24
