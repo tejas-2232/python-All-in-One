@@ -428,6 +428,16 @@ __2.2 Recursion:__
 
 __python recursive function:__
 
-In python, we see that a function call call another function. Likewise it's also possible for function to call itself. This concept is known as Recursive functions
+<p>
+In python, we see that a function can call another function. Likewise it's also possible for function to call itself. This concept is known as Recursive functions
+
+The following image shows working of recursive function.
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/python-recursion-function.png">
+
+</p>
+
+
+
 
 __2.3 Bubble Sort:__
