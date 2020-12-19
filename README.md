@@ -459,3 +459,12 @@ Factorial of 4 is 24
 
 
 __2.3 Bubble Sort:__
+
+<p>
+
+Bubble sort is also known as ```comparison sort```,is a simple sorting algorithm. It repetitively goes throught the list and swaps the adjacent elements which are in the wrong order.
+
+
+
+
+</p>
