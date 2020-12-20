@@ -470,5 +470,9 @@ __How bubble sort works:__
 * Now, compare the second and the third elements. Swap them if they are not in order.
 * This process continues till the last element.
 
+For ex: See the given Image <br>
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-0.png" >
+
 
 </p>
