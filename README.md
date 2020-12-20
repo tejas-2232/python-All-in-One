@@ -467,7 +467,7 @@ Bubble sort is also known as ```comparison sort```,is a simple sorting algorithm
 __How bubble sort works:__  Starting from the first index, compare the first and the second elements.If the first element is greater than the second element, they are swapped.
 
 Now, compare the second and the third elements. Swap them if they are not in order.
-
+This process continues till the last element.
 
 
 </p>
