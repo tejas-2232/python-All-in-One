@@ -478,4 +478,8 @@ For ex: See the given Image <br>
 * After each iteration, the largest element among the unsorted elements is placed at the end.
 * In each iteration, the comparison takes place up to the last unsorted element.
 * The array is sorted when all the unsorted elements are placed at their correct position.
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-1.png" >
+
+
 </p>
