@@ -489,4 +489,15 @@ For ex: See the given Image <br>
 
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-3.png">
 
+
+**Bubble Sort Algorithm:**
+```
+bubbleSort(array)
+   for i <- 1 to indexOfLastUnsortedElement -1
+      if leftElement > rightElement
+         swap leftElement and rightElement
+end bubbleSort 
+        
+```
+
 </p>
