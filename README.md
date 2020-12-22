@@ -481,5 +481,12 @@ For ex: See the given Image <br>
 
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-1.png" >
 
+<br>
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-2.png">
+
+<br>
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Bubble-sort-3.png">
 
 </p>
