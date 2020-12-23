@@ -510,6 +510,12 @@ def bubbleSort(array):
             if array[j] > array[j+1]"
                 #swap if greater elem is at rear position
                 (array[j],array[j+1]) = (array[j+1],array[j])
+                
+
+data = [5,0,14,1,25]
+bubbleSort(data)
+print("sorted arraty is ascending order:")
+print(data)
 
 ```
 </p>
