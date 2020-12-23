@@ -500,4 +500,16 @@ end bubbleSort
         
 ```
 
+__Python Implementation:__
+
+```py
+def bubbleSort(array):
+    for i in range(len(array)):
+        for j in range(0,len(array)-i-1):
+            #sort
+            if array[j] > array[j+1]"
+                #swap if greater elem is at rear position
+                (array[j],array[j+1]) = (array[j+1],array[j])
+
+```
 </p>
