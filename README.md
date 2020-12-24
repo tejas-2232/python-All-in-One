@@ -519,3 +519,8 @@ print(data)
 
 ```
 </p>
+
+
+
+
+2.4 Merge Sort
