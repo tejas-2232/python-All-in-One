@@ -523,4 +523,6 @@ print(data)
 
 
 
-2.4 Merge Sort
+__2.4 Merge Sort:__
+
+__2.5 Quick Sort:__
