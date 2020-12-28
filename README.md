@@ -524,5 +524,10 @@ print(data)
 
 
 __2.4 Merge Sort:__
+<p> 
+Merge Sort is based on Divide and Conquer strategy. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+</p>
+
 
 __2.5 Quick Sort:__
