@@ -525,10 +525,17 @@ print(data)
 
 __2.4 Merge Sort:__
 <p> 
-Merge Sort is based on Divide and Conquer strategy. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
-  Following diagram shows the working of merge sort.
-  
+* Merge Sort is based on Divide and Conquer strategy. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+* The following diagram from wikipedia shows the complete merge sort process for an example array {38, 27, 43, 3, 9, 82, 10}. 
+
+* If we take a closer look at the diagram, we can see that the array is recursively divided in two halves till the size becomes 1. 
+
+* Once the size becomes 1, the merge processes come into action and start merging arrays back till the complete array is merged.
+
+<br> 
   <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Merge-Sort-Tutorial.png">
+<br>
 
 </p>
 
