@@ -546,7 +546,12 @@ MergeSort(arr[],l,r)
 If r > l
       1. Find the middle point to divide array into two parts:
                middle = (l+r)/2
-      2. Call MergeSort for firsh half
+      2. call MergeSort for firsh half:
+               call MergeSort(arr,l,m)
+      3. call MergeSort for second half:
+               call MergeSort(arr,m+1,r)
+      4. Merge the two sorted halves in step 2 & 3:
+               Call merge(arr,l,m,r)
 
 ```
 
