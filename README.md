@@ -538,7 +538,23 @@ __2.4 Merge Sort:__
   <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Merge-Sort-Tutorial.png">
 <br>
 
+we are following the below approach:
+
+```
+MergeSort(arr[],l,r)
+
+If r > l
+      1. Find the middle point to divide array into two parts:
+               middle = (l+r)/2
+      2. Call MergeSort for firsh half
+
+```
+
 </p>
+
+
+
+
 
 
 __2.5 Quick Sort:__
