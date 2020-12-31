@@ -563,9 +563,21 @@ def mergeSort(arr):
    if len(arr) >1:
 
       #find the middle of tha array
-      middle = len(arr)//2
+      mid = len(arr)//2
 
-      
+      #divide the array elements
+      L = arr[:mid] 
+
+      #into 2 parts
+      R= arr[mid:] 
+
+      #sorting first half
+      mergeSort(L)
+
+      #sorting second half
+      mergeSort(R)
+
+          
 
 
 
