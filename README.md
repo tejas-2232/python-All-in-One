@@ -555,6 +555,22 @@ If r > l
 
 ```
 
+**Code Implementation:**
+
+```py
+
+def mergeSort(arr):
+   if len(arr) >1:
+
+      #find the middle of tha array
+      middle = len(arr)//2
+
+      
+
+
+
+```
+
 </p>
 
 
