@@ -585,6 +585,9 @@ def mergeSort(arr):
          if L[i] < R[j]
             arr[k]=L[i]  # putting value of first element of array L into array K 
             i+=1
+         else:
+            arr[k] = R[j] # else put array R's first element in array K.. simple
+            
 
           
 
