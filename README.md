@@ -587,6 +587,20 @@ def mergeSort(arr):
             i+=1
          else:
             arr[k] = R[j] # else put array R's first element in array K.. simple
+            j +=1
+         k=k+1
+      
+      #checking if any element was left
+      while i< len(L):
+         arr[k] = L[i]
+         i+=1
+         k+=1
+      
+      while j< len(R):
+         arr[k] = R[j]
+         j+=1
+         k+=1
+         
             
 
           
