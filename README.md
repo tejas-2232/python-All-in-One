@@ -608,12 +608,13 @@ def printList(arr):
       print(arr[i],end="")
    print()
 
-          
+#main diver code
 
-
-
+if __name__== '__main__':
+   arr = [12,11,13,5,6,7]
+   print("given array is",end="\n")
+   printList(arr)
 ```
-
 </p>
 
 
