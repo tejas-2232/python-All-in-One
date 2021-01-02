@@ -621,7 +621,12 @@ if __name__== '__main__':
 ```
 </p>
 
-__Time Complexity:__ <p> Merge sort is recursive algorithm and time complexity can be expressed as ```T(n) = 2T(n/2)+θ(n)``` </p>
+__Time Complexity:__ <p> Merge sort is recursive algorithm and time complexity can be expressed as ```T(n) = 2T(n/2)+θ(n)``` 
+
+* The above recurrence can be solved either by using the Recurrence Tree method or the Master method. It falls in case II of Master Method and the solution of the recurrence is ```θ(nLogn)```. 
+* Time complexity of Merge Sort is  ```θ(nLogn)``` in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and takes linear time to merge two halves.
+
+</p>
 
 
 
