@@ -621,6 +621,7 @@ if __name__== '__main__':
 ```
 </p>
 
+__Time Complexity:__ <p> Merge sort is recursive algorithm and time complexity can be expressed as ```T(n) = 2T(n/2)+θ(n)``` </p>
 
 
 
