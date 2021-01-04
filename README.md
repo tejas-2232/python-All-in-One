@@ -636,8 +636,31 @@ __2.5 Quick Sort:__
 
 <p> 
 
-The quick sort uses divide and conquer to gain the same advantages as the merge sort, while not using additional storage. As a trade-off, however, it is possible that the list may not be divided in half. When this happens, we will see that performance is diminished.
+* The quick sort uses divide and conquer to gain the same advantages as the merge sort, while not using additional storage. As a trade-off, however, it is possible that the list may not be divided in half. When this happens, we will see that performance is diminished.
+
+* A quick sort first selects a value,which is pivot value. There are many ways to choose pivot value but we simply use the first value. The role of pivot value is to assist with splitting list.
+
+* The actual position where the pivot value belongs in the final sorted list, commonly called the split point, will be used to divide the list for subsequent calls to the quick sort.
+
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 quick sort reference: https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheQuickSort.html
