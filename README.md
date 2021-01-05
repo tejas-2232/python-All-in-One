@@ -648,6 +648,27 @@ __2.5 Quick Sort:__
 2. Always pick last element as pivot
 3. pick a random element as pivot
 4. pick median as pivot
+
+__PseudoCode for Quicksort:__
+
+```py
+#low -> start index 
+# high -> end index
+
+quicksort(arr[],low,high):
+   if low < high:
+      # pi is partitioning index, arr[pi] is now at right place
+
+      pi= partition(arr,low,high)
+
+      quicksort(arr,low,pi-1)   # before pi
+      quicksort(arr,pi + 1,high)# after pi
+
+
+
+
+```
+
 </p>
 
 
