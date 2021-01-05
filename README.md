@@ -642,6 +642,12 @@ __2.5 Quick Sort:__
 
 * The actual position where the pivot value belongs in the final sorted list, commonly called the split point, will be used to divide the list for subsequent calls to the quick sort.
 
+* Different versions of quickSort that pick pivot in different ways.
+
+1. Always pick first element as pivot
+2. Always pick last element as pivot
+3. pick a random element as pivot
+4. pick median as pivot
 </p>
 
 
