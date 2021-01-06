@@ -664,9 +664,6 @@ quicksort(arr[],low,high):
       quicksort(arr,low,pi-1)   # before pi
       quicksort(arr,pi + 1,high)# after pi
 
-
-
-
 ```
 
 </p>
