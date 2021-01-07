@@ -649,7 +649,7 @@ __2.5 Quick Sort:__
 3. pick a random element as pivot
 4. pick median as pivot
 
-__PseudoCode for Quicksort:__
+__PseudoCode for recursive Quicksort function:__
 
 ```py
 #low -> start index 
@@ -670,6 +670,11 @@ quicksort(arr[],low,high):
 
 <img src="https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png">
 
+* Below Video will help you to visualize the process:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/PgBzjlCcFvc">
+</iframe> 
 
 </p>
 
