@@ -665,6 +665,12 @@ quicksort(arr[],low,high):
       quicksort(arr,pi + 1,high)# after pi
 
 ```
+
+* Let's have a look at following figure:
+
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png ">
+
+
 </p>
 
 
