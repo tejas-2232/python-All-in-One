@@ -672,9 +672,7 @@ quicksort(arr[],low,high):
 
 * Below Video will help you to visualize the process:
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/PgBzjlCcFvc">
-</iframe> 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/PgBzjlCcFvc"> </iframe> 
 
 </p>
 
