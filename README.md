@@ -674,6 +674,8 @@ quicksort(arr[],low,high):
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/PgBzjlCcFvc"> </iframe> 
 
+[Quick sort video](https://www.youtube.com/embed/PgBzjlCcFvc)
+
 </p>
 
 
