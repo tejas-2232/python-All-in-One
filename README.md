@@ -676,6 +676,8 @@ quicksort(arr[],low,high):
 
 ### [Quick sort video](https://www.youtube.com/embed/PgBzjlCcFvc)
 
+quick sort reference: https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheQuickSort.html
+
 </p>
 
 
@@ -689,18 +691,3 @@ quicksort(arr[],low,high):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-quick sort reference: https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheQuickSort.html
