@@ -688,3 +688,9 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 * Hash function is the core of implementing Hash Map.
 * It takes the key and translates it in to the index of bucket in bucket list.
 * Ideal hashing should produce a different index for each key. However, collisions can occur. When hashing gives same/existing index, we can simply use a bucket for multiple values by appending the list or byb rehashing.
+* __In python, dictionaries can be considered as examples of hash maps.__
+
+* The Hashmap design will include following functions:
+**set_val(key,value):**
+**get_val(key):**
+**delete_val(key):**
