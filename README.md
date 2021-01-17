@@ -681,7 +681,7 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 </p>
 
 
-## 3. Maps and Hashing  <br>
+## 3. Maps and Hashing:<br>
 
 * Hash maps are indexed data structures. A hash map makes use of a hash function to compute an index with a key into an array of buckets or slots. It's values is mapped to the bucket with corresponding index.
 * The key is unique and immutable(can not be changed). Think of hashmap as bottles with the labels of liquid item stored in them.
@@ -694,3 +694,5 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 **set_val(key,value):**
 **get_val(key):**
 **delete_val(key):**
+
+
