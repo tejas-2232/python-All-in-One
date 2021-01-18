@@ -710,6 +710,8 @@ class python:
       self.size=size
       self.hashtable = self.create_buckets()
 
-
+    
+    def create_buckets(self):
+      return [[] for _ in range(self.size)]
 ```
 
