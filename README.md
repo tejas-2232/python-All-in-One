@@ -684,15 +684,32 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 ## 3. Maps and Hashing:<br>
 
 * Hash maps are indexed data structures. A hash map makes use of a hash function to compute an index with a key into an array of buckets or slots. It's values is mapped to the bucket with corresponding index.
+
 * The key is unique and immutable(can not be changed). Think of hashmap as bottles with the labels of liquid item stored in them.
+
 * Hash function is the core of implementing Hash Map.
+
 * It takes the key and translates it in to the index of bucket in bucket list.
+
 * Ideal hashing should produce a different index for each key. However, collisions can occur. When hashing gives same/existing index, we can simply use a bucket for multiple values by appending the list or byb rehashing.
+
 * __In python, dictionaries can be considered as examples of hash maps.__
 
 * The Hashmap design will include following functions:
+
 **set_val(key,value):**
 **get_val(key):**
 **delete_val(key):**
 
+We will see the implementation below:
+
+```py
+class python:
+  
+    def __init__(self,size):
+      self.size=size
+      self.hashtable = self.create_buckets()
+
+
+```
 
