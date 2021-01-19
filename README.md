@@ -701,7 +701,9 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 **get_val(key):**
 **delete_val(key):**
 
-We will see the implementation below:
+Let's have a Look at Implementation: 
+
+
 
 ```py
 class python:
