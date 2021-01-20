@@ -703,8 +703,6 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 
 Let's have a Look at Implementation: 
 
-
-
 ```py
 class python:
   
