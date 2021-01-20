@@ -3,7 +3,6 @@
 
 ## structure
 
-
 * In this repo we will cover all codes and revision needed for quick brush up for concepts.
 * so that when we need to visit the concepts,its available for us.
 
@@ -188,7 +187,6 @@ For Ex:
 5. Graphs
 6. Case Studies in Algorithms
 7. Technical Interview Tips
-
 
 <br>
 
