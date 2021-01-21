@@ -716,6 +716,11 @@ class HashTabe:
     
     def set_val(self,key,value):
       # now get the index from key using hash function
+      
+      hashed_key= hash(key) % self.size
+      
+      #get the bucket correspoding to index.
+      
     
 ```
 
