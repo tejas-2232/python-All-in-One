@@ -702,7 +702,7 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 Let's have a Look at Implementation: 
 
 ```py
-class HashTabe:
+class HashTable:
   
     def __init__(self,size):
       self.size=size
@@ -720,7 +720,9 @@ class HashTabe:
       hashed_key= hash(key) % self.size
       
       #get the bucket correspoding to index.
+      bucket = self.hash_table[hashed_key]
       
+      found_key = False
     
 ```
 
