@@ -702,7 +702,7 @@ quick sort reference: https://runestone.academy/runestone/books/published/python
 Let's have a Look at Implementation: 
 
 ```py
-class python:
+class HashTabe:
   
     def __init__(self,size):
       self.size=size
@@ -711,5 +711,11 @@ class python:
     
     def create_buckets(self):
       return [[] for _ in range(self.size)]
+    
+    #insert value into hashmap
+    
+    def set_val(self,key,value):
+      # now get the index from key using hash function
+    
 ```
 
