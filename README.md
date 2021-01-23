@@ -722,7 +722,6 @@ class HashTable:
       #get the bucket correspoding to index.
       bucket = self.hash_table[hashed_key]
       
-      found_key = False
-    
+      found_key = True
 ```
 
