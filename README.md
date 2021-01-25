@@ -726,6 +726,12 @@ class HashTable:
       
       for index,record in enumerate(bucket):
         record_key,record_val = record
+        
+        #check if the name has the same key that is being searched.
+        if record_key == key:
+          found_key = True
+          break
+        
           
         
 ```
