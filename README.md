@@ -761,6 +761,12 @@ class HashTable:
          if record_key == key
             found_key =True
             break
+
+      #if the bucket has same key as the key being searched,
+      #return the value found
+      # Otherwise indicate there was no record found
+
+      
         
 ```
 
