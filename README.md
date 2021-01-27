@@ -766,7 +766,10 @@ class HashTable:
       #return the value found
       # Otherwise indicate there was no record found
 
-      
+      if found_key:
+         return record_val
+      else:
+         return "No record Found"
         
 ```
 
