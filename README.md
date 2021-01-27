@@ -716,9 +716,9 @@ class HashTable:
     
     def set_val(self,key,value):
       # now get the index from key using hash function
-      
+     
       hashed_key= hash(key) % self.size
-      
+   
       #get the bucket correspoding to index.
       bucket = self.hash_table[hashed_key]
       
@@ -727,12 +727,40 @@ class HashTable:
       for index,record in enumerate(bucket):
         record_key,record_val = record
         
-        #check if the name has the same key that is being searched.
+        #check if the name has the same key to be inserted.
         if record_key == key:
           found_key = True
           break
-        
-          
+      
+      '''
+      if the bucket has same as the key to be inserted,
+      update the key value
+      otherwise append the new key-value pair to the bucket
+      '''
+      if found_key:
+         bucket[index] = (key,val)
+      else:
+         bucket.append((key,val))
+
+    #return searched value with specific key
+    def get_val(self,key):
+
+      #Get the index from the key using hash function
+      hashed_key = hash(key) % self.size
+
+      #Get the bucket corresponding to index
+      bucket = self.hash_table[hashed_key]
+
+      found_key = False    
+
+      for index,record in enumerate(bucket):
+         record_key, record_val = record
+
+         # check if the bucket has the same key as the key being searched
+
+         if record_key == key
+            found_key =True
+            break
         
 ```
 
