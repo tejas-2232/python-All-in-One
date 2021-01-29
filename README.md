@@ -760,7 +760,8 @@ class HashTable:
 
          if record_key == key
             found_key =True
-            break
+            -------------
+            ---------------- smthng missng check code
 
       #if the bucket has same key as the key being searched,
       #return the value found
