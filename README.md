@@ -770,7 +770,13 @@ class HashTable:
          return record_val
       else:
          return "No record Found"
-         
+    
+    #Remove a value wit specific key
+    
+    def delete_val(self,key):
+      #get the index from the key using hash function
+      
+      hashed_key = hash(key) %self.size
      
      
      
