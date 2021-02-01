@@ -794,8 +794,17 @@ class HashTable:
         bucket.pop(index)
        return
      
+     # to print the items of hash map
+     
+     def __str__(self):
+      return "".join(str(item) for item in self.hash_table )
      
      
+hash_table = HashTable(50)
+
+#insert values
+
+hash_table.set_val()
      
      
 ```
