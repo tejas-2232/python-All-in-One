@@ -777,9 +777,13 @@ class HashTable:
       #get the index from the key using hash function
       
       hashed_key = hash(key) %self.size
-     
-     
-     
+      
+      #get the bucket corresponding to index
+      bucket = self.hash_table[hashed_key]
+      
+      found_key=False
+      for index,record in enumerate(bucket):
+        record_key, record_val= record
      
      
      
