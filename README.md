@@ -784,6 +784,15 @@ class HashTable:
       found_key=False
       for index,record in enumerate(bucket):
         record_key, record_val= record
+        
+        #check if the bucket has the same key as to be deleted
+        if record_key  == key:
+          found_key = True
+          break
+      
+      if found_key:
+        bucket.pop(index)
+       return
      
      
      
