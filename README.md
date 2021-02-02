@@ -804,7 +804,11 @@ hash_table = HashTable(50)
 
 #insert values
 
-hash_table.set_val()
+hash_table.set_val("Rock","rock11@gmail.com)
+print(hash_table)
+print()
+
+
      
      
 ```
