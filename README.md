@@ -825,8 +825,10 @@ print()
 print(hash_table.get_val('Tom'))
 print()
 
+#delete or remove a value
 
-     
+hash_table.delete_val('Rock')
+print(hash_table)
      
 ```
 
