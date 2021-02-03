@@ -815,6 +815,15 @@ print()
 hash_table.set_val("ben","ben.obama@gmail.com)
 print(hash_table)
 print()
+     
+
+#search / access the record using key
+ 
+print(hash_table.get_val('Rock'))
+print()
+
+print(hash_table.get_val('Tom'))
+print()
 
 
      
