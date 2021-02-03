@@ -808,6 +808,14 @@ hash_table.set_val("Rock","rock11@gmail.com)
 print(hash_table)
 print()
 
+hash_table.set_val("Tom","tomcruize@gmail.com)
+print(hash_table)
+print()
+
+hash_table.set_val("ben","ben.obama@gmail.com)
+print(hash_table)
+print()
+
 
      
      
