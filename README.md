@@ -834,8 +834,11 @@ print(hash_table)
 
 
 
+**Time Complexity:**
 
-
+<p> Memory index access takes constant time and hashing takes constant time.
+Hence, the search complexity of hash map is also constant time, i.e. O(1)
+</p>
 
 
 
