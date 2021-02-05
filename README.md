@@ -842,6 +842,8 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 
 
+## 4. TREES in Python:
+
 
 
 
