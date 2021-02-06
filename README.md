@@ -844,7 +844,7 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 ## 4. TREES in Python:
 
-
+we know linked list,similarly trees are made up of nodes. A common kind of tree is Binary Tree, in which each node contains a reference to two other nodes (posibly none). These reference are referred to as the left and right subtree
 
 
 
