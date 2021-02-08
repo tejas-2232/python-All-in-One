@@ -847,8 +847,8 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 we know linked list,similarly trees are made up of nodes. A common kind of tree is Binary Tree, in which each node contains a reference to two other nodes (posibly none). These reference are referred to as the left and right subtree.
 
 * The top node is called as root (main node), the other nodes are called branches and the nodes which are at tips with null reference are called leaves
-
-
+* Top nodes are sometimes also called
+ as parent node
 
 
 
