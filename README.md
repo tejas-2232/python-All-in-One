@@ -851,6 +851,10 @@ we know linked list,similarly trees are made up of nodes. A common kind of tree 
 * Nodes with same parent are called __siblings__.
 * We already mentioned right and left, but there is up(towards root/parent) and down(leaves/childrens) also.
 
+* Trees are considered as recursive data structure reason being they are defined recursively.
+
+
+
 
 
 
