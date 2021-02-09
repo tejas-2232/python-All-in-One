@@ -860,7 +860,7 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
   - the empty tree, represented by ```NONE``` or
   - a node conatining an object reference and two tree references.
 
-*
+### Building Trees
 
 
 
