@@ -862,6 +862,7 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 ### Building Trees
 
+The process of assembling a tree is similar to the process of assembling a linked list. Each constructor invocation builds a single node
 
 
 
