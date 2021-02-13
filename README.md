@@ -864,8 +864,11 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 * In a tree having __N nodes__  there will be exactly __N-1 edges.__ 
 
+<div style="text-align:center">
+  <img src="https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" />
+</div>
 
-<img src="https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" >
+
 
 
 ### Building Trees
