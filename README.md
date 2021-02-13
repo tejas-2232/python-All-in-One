@@ -854,12 +854,20 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 * Nodes with same parent are called __siblings__.
 
+* Nodes having different parents but same grand parents are called __Cousins.__
+
 * We already mentioned right and left, but there is up(towards root/parent) and down(leaves/childrens) also.
 
 * Trees are considered as recursive data structure reason being they are defined recursively. A tree is either
   - the empty tree, represented by ```NONE``` or
   - a node conatining an object reference and two tree references.
 
+* In a tree having __N nodes__  there will be exactly __N-1 edges.__ 
+```
+
+<img src= "https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" >
+
+```
 ### Building Trees
 
 
