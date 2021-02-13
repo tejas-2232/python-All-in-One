@@ -868,7 +868,11 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 <img src="https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" />
 
 
-> Depth and Height
+> ## Depth and Height
+
+* __Depth__ of node x in tree is defined as lenght of the path from root to x. Each edge in the path will contribute for one unit in length.
+
+* Depth of root node is __Zero__
 
 
 
