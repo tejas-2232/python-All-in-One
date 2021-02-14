@@ -882,3 +882,15 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 
 * We build the tree through same process as we build linked list. Each constructor invocation builds a single node.
 
+```py
+
+class tree:
+  def __init__(self.cargo,left=None,right=None):
+    self.cargo=cargo
+    self.left=left
+    self.right=right
+    
+  def __str__(self):
+    return str(self.string)
+
+```
