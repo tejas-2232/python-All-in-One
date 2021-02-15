@@ -899,4 +899,11 @@ class tree:
 
 * To print the cargo we have to just print the cargo
 
+* THere is one more way to build the tree, its bottom up way i.e. allocating  the child nodes first.
+
+```py
+left = Tree(2)
+right= Tree(3)
+
+```
 
