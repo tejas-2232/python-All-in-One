@@ -885,12 +885,18 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 ```py
 
 class tree:
-  def __init__(self.cargo,left=None,right=None):
+  
+  def __init__(self,cargo,left=None,right=None):
     self.cargo=cargo
-    self.left=left
+    self.left= left
     self.right=right
     
   def __str__(self):
-    return str(self.string)
-
+    return str(self.cargo)
+   
 ```
+* the cargo can be of any type,but the left and right parameteres should be tree nodes. ```left``` and ```right``` are optional,thedefafult value is ```None```
+
+* To print the cargo we have to just print the cargo
+
+
