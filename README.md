@@ -892,19 +892,17 @@ class tree:
     self.right=right
     
   def __str__(self):
-    return str(self.cargo)
-   
+    return str(self.cargo)  
 ```
-* the cargo can be of any type,but the left and right parameteres should be tree nodes. ```left``` and ```right``` are optional,thedefafult value is ```None```
+* the cargo can be of any type,but the left and right parameteres should be tree nodes. ```left``` and ```right``` are optional,thedefafult value is ```None```.
 
-* To print the cargo we have to just print the cargo
+* To print the cargo we have to just print the cargo.
 
 * There is one more way to build the tree, its bottom up way i.e. allocating  the child nodes first.
 
 ```py
 left = Tree(2)
 right= Tree(3)
-
 ```
 
 * Now we add Parent node and link it to the childrens
@@ -916,5 +914,5 @@ tree = Tree(1,left,right)
 * Another way is by nesting constructor invocations
 
 ```py
-tree = Tree(1, Tree(2), Tree(3) )
+tree = Tree(1,Tree(2),Tree(3))
 ```
