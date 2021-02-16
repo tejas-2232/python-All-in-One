@@ -913,4 +913,8 @@ right= Tree(3)
 tree = Tree(1,left,right)    
 ```
 
+* Another way is by nesting constructor invocations
 
+```py
+tree = Tree(1, Tree(2), Tree(3) )
+```
