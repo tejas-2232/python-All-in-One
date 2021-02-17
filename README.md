@@ -928,3 +928,7 @@ def totol(tree):
   return total(tree.left) + total(tree.right) +tree.cargo
 
 ```
+
+* Base case is empty tree, it contains no cargo,so the sum is zero.
+* The recursive step makes two recirsive calls( one to left subtree & second to right subtree) to find the sum of child subtrees. 
+* When the recursive calls complete then we add the cargo of parent and return the total.
