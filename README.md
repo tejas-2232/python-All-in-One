@@ -916,3 +916,15 @@ tree = Tree(1,left,right)
 ```py
 tree = Tree(1,Tree(2),Tree(3))
 ```
+
+### Traversing trees
+
+* We alwways want to traverse any data structure that comes across us. Same way the most simple way to traverse Tree is recursively.
+* For Example, if the tree contains integers as cargo, the below function will return their sum.
+
+```py
+def totol(tree):
+  if tree == None: return 0
+  return total(tree.left) + total(tree.right) +tree.cargo
+
+```
