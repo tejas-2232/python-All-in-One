@@ -932,3 +932,7 @@ def totol(tree):
 * Base case is empty tree, it contains no cargo,so the sum is zero.
 * The recursive step makes two recirsive calls( one to left subtree & second to right subtree) to find the sum of child subtrees. 
 * When the recursive calls complete then we add the cargo of parent and return the total.
+
+### Expression Trees
+
+* Tree is natural way to represent the structure of an expression. Unlike other notations, it represents the computations unambiguously
