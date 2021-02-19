@@ -935,4 +935,7 @@ def totol(tree):
 
 ### Expression Trees
 
-* Tree is natural way to represent the structure of an expression. Unlike other notations, it represents the computations unambiguously
+* Tree is natural way to represent the structure of an expression. Unlike other notations, it represents the computations unambiguously.
+* For Example, the infix expression ```1 +2 * 3``` is ambiguous unless we know that the multiplication happens before addition.
+* The expression trees represent the same computation.
+* The nodes of such expression trees are operands like 1,2,3 or operators like + and *. Operands are leaf nodes
