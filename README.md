@@ -770,6 +770,7 @@ class HashTable:
          return record_val
       else:
          return "No record Found"
+<<<<<<< HEAD
     #remove a value with specific key
 
     def delete_val(self,key):
@@ -777,5 +778,182 @@ class HashTable:
 
       hashed_key= hash(key) % self.size
 
+=======
+    
+    #Remove a value wit specific key
+    
+    def delete_val(self,key):
+      #get the index from the key using hash function
+      
+      hashed_key = hash(key) %self.size
+      
+      #get the bucket corresponding to index
+      bucket = self.hash_table[hashed_key]
+      
+      found_key=False
+      for index,record in enumerate(bucket):
+        record_key, record_val= record
+        
+        #check if the bucket has the same key as to be deleted
+        if record_key  == key:
+          found_key = True
+          break
+      
+      if found_key:
+        bucket.pop(index)
+       return
+     
+     # to print the items of hash map
+     
+     def __str__(self):
+      return "".join(str(item) for item in self.hash_table )
+     
+     
+hash_table = HashTable(50)
+
+#insert values
+
+hash_table.set_val("Rock","rock11@gmail.com)
+print(hash_table)
+print()
+
+hash_table.set_val("Tom","tomcruize@gmail.com)
+print(hash_table)
+print()
+
+hash_table.set_val("ben","ben.obama@gmail.com)
+print(hash_table)
+print()
+     
+
+#search / access the record using key
+ 
+print(hash_table.get_val('Rock'))
+print()
+
+print(hash_table.get_val('Tom'))
+print()
+
+#delete or remove a value
+
+hash_table.delete_val('Rock')
+print(hash_table)
+     
 ```
+
+
+
+**Time Complexity:**
+
+<p> Memory index access takes constant time and hashing takes constant time.
+Hence, the search complexity of hash map is also constant time, i.e. O(1)
+</p>
+
+
+
+## 4. TREES in Python:
+
+* Trees are non-linear Data Structure.
+
+* we know linked list,similarly trees are made up of nodes. A common kind of tree is __Binary Tree__, in which each node contains a reference to two other nodes (posibly none). These reference are referred to as the left and right subtree.
+
+* The top node is called as __root__ (main node), the other nodes are called __branches__ and the nodes which are at tips with null reference are called __leaves__
+
+* Top nodes are sometimes also called as parent and the nodes below parent are referred as children Nodes.
+
+* Nodes with same parent are called __siblings__.
+
+* Nodes having different parents but same grand parents are called __Cousins.__
+
+* We already mentioned right and left, but there is up(towards root/parent) and down(leaves/childrens) also.
+
+* Trees are considered as recursive data structure reason being they are defined recursively. A tree is either
+  - the empty tree, represented by ```NONE``` or
+  - a node conatining an object reference and two tree references.
+
+* In a tree having __N nodes__  there will be exactly __N-1 edges.__ 
+
+
+<img src="https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" />
+
+
+> ## Depth and Height
+
+* __Depth__ of node x in tree is defined as lenght of the path from root to x. Each edge in the path will contribute for one unit in length.
+
+* Depth of root node is __Zero.__
+
+* __Height__ of any node in tree is defined as number of edges in longest path from that node to a leaf.
+
+
+### Building Trees
+
+
+* We build the tree through same process as we build linked list. Each constructor invocation builds a single node.
+
+```py
+
+class tree:
+  
+  def __init__(self,cargo,left=None,right=None):
+    self.cargo=cargo
+    self.left= left
+    self.right=right
+    
+  def __str__(self):
+    return str(self.cargo)  
+```
+* the cargo can be of any type,but the left and right parameteres should be tree nodes. ```left``` and ```right``` are optional,thedefafult value is ```None```.
+
+* To print the cargo we have to just print the cargo.
+
+* There is one more way to build the tree, its bottom up way i.e. allocating  the child nodes first.
+
+```py
+left = Tree(2)
+right= Tree(3)
+```
+
+* Now we add Parent node and link it to the childrens
+
+```py
+tree = Tree(1,left,right)    
+>>>>>>> 739d154571e5135e7af55670574b0137f7369f7b
+```
+
+* Another way is by nesting constructor invocations
+
+```py
+tree = Tree(1,Tree(2),Tree(3))
+```
+
+### Traversing trees
+
+* We alwways want to traverse any data structure that comes across us. Same way the most simple way to traverse Tree is recursively.
+* For Example, if the tree contains integers as cargo, the below function will return their sum.
+
+```py
+def totol(tree):
+  if tree == None: return 0
+  return total(tree.left) + total(tree.right) +tree.cargo
+
+```
+
+* Base case is empty tree, it contains no cargo,so the sum is zero.
+* The recursive step makes two recirsive calls( one to left subtree & second to right subtree) to find the sum of child subtrees. 
+* When the recursive calls complete then we add the cargo of parent and return the total.
+
+### Expression Trees
+
+* Tree is natural way to represent the structure of an expression. Unlike other notations, it represents the computations unambiguously.
+* For Example, the infix expression ```1 + 2 * 3``` is ambiguous unless we know that the multiplication happens before addition.
+* The expression trees represent the same computation.
+* The nodes of such expression trees are operands like 1,2,3 or operators like + and *. Operands are leaf nodes.
+* Operator nodes have refr=erences to their operands. (All of these opearators are binary, meaning they have exactly two operands.
+* We can build tree like this:
+
+> tree = Tree ('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
+
+* order of operation is; the multiplication is first and then second opearation of addition.
+* These expression Trees can be used to convert expressions like postfix,prefix,infix to each other.
 
