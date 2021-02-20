@@ -962,3 +962,5 @@ def totol(tree):
 * order of operation is; the multiplication is first and then second opearation of addition.
 * These expression Trees can be used to convert expressions like postfix,prefix,infix to each other.
 
+
+### traversing the Trees 
