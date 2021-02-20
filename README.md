@@ -770,15 +770,13 @@ class HashTable:
          return record_val
       else:
          return "No record Found"
-<<<<<<< HEAD
+
     #remove a value with specific key
 
     def delete_val(self,key):
       #get the index from the key using hash function
 
       hashed_key= hash(key) % self.size
-
-=======
     
     #Remove a value wit specific key
     
@@ -877,6 +875,8 @@ Hence, the search complexity of hash map is also constant time, i.e. O(1)
 <img src="https://miro.medium.com/max/303/1*wAsNx2NFmGE6OcG2Obl-8Q.jpeg" />
 
 
+<br><br>
+
 > ## Depth and Height
 
 * __Depth__ of node x in tree is defined as lenght of the path from root to x. Each edge in the path will contribute for one unit in length.
@@ -917,8 +917,7 @@ right= Tree(3)
 * Now we add Parent node and link it to the childrens
 
 ```py
-tree = Tree(1,left,right)    
->>>>>>> 739d154571e5135e7af55670574b0137f7369f7b
+tree = Tree(1,left,right)
 ```
 
 * Another way is by nesting constructor invocations
@@ -932,6 +931,8 @@ tree = Tree(1,Tree(2),Tree(3))
 * We alwways want to traverse any data structure that comes across us. Same way the most simple way to traverse Tree is recursively.
 * For Example, if the tree contains integers as cargo, the below function will return their sum.
 
+<br>
+
 ```py
 def totol(tree):
   if tree == None: return 0
@@ -943,7 +944,11 @@ def totol(tree):
 * The recursive step makes two recirsive calls( one to left subtree & second to right subtree) to find the sum of child subtrees. 
 * When the recursive calls complete then we add the cargo of parent and return the total.
 
+<br>
+
 ### Expression Trees
+
+<br>
 
 * Tree is natural way to represent the structure of an expression. Unlike other notations, it represents the computations unambiguously.
 * For Example, the infix expression ```1 + 2 * 3``` is ambiguous unless we know that the multiplication happens before addition.
