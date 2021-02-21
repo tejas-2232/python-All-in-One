@@ -963,4 +963,6 @@ def totol(tree):
 * These expression Trees can be used to convert expressions like postfix,prefix,infix to each other.
 
 
-### traversing the Trees 
+### Traversing the Trees 
+
+* we can tracerse the expression trees and print the content like this:
