@@ -957,7 +957,7 @@ def totol(tree):
 * Operator nodes have refr=erences to their operands. (All of these opearators are binary, meaning they have exactly two operands.
 * We can build tree like this:
 
-> tree = Tree ('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
+> >>>tree = Tree ('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
 
 * order of operation is; the multiplication is first and then second opearation of addition.
 * These expression Trees can be used to convert expressions like postfix,prefix,infix to each other.
@@ -979,3 +979,9 @@ def print_tree(tree):
 
 * To print the tree, we first print the root,then left subtree and then right subtree.
    * This way of traversing the tree is called as Preorder as root is accessed or printed before the children.
+* __For the previous example the output is:__
+
+> >>> tree = Tree('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
+  >>> print_tree(tree)
+
+  + 1 *2 3
