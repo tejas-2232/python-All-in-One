@@ -977,3 +977,5 @@ def print_tree(tree):
 ```
 <br>
 
+* To print the tree, we first print the root,then left subtree and then right subtree.
+   * This way of traversing the tree is called as Preorder as root is accessed or printed before the children.
