@@ -982,6 +982,7 @@ def print_tree(tree):
 * __For the previous example the output is:__
 
 >  tree = Tree('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
-   print_tree(tree)
+>> print_tree(tree)
 
-  + 1 *2 3
+> __Output__
+  >>__+ 1 *2 3__
