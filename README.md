@@ -966,3 +966,14 @@ def totol(tree):
 ### Traversing the Trees 
 
 * we can tracerse the expression trees and print the content like this:
+
+```py
+def print_tree(tree):
+   if tree == None: return
+   print tree.cargo,
+
+   print_tree(tree.left)
+   print_tree(tree.right)
+```
+<br>
+
