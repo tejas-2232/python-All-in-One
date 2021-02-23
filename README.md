@@ -1000,10 +1000,10 @@ def print_tree_postorder(tree):
    print_tree_postorder(tree.left)
    print_tree_postorder(tree.right)
    print tree.cargo
-
-   
-
 ```
+
+* The result is  ```1 2 3 * +```. This order of traversal is called as post order traversal.
+
 
 
 
