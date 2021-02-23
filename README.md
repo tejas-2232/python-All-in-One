@@ -1005,7 +1005,17 @@ def print_tree_postorder(tree):
 * The result is  ```1 2 3 * +```. This order of traversal is called as post order traversal.
 
 
+* Now, to traverse the tree __Inorder__, print the left tree, then root and then right tree.
 
+```py
+def print_tree_inorder(tree):
+   if tree == None:return
+
+   print_tree_inorder(tree.left)
+   print tree.cargo
+   print_tree_inorder(tree.right)
+
+```
 
 
 
