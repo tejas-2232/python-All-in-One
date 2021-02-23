@@ -986,3 +986,27 @@ def print_tree(tree):
 
 > __Output__
   >>__+ 1 *2 3__
+
+* This expression is called as prefix, in which operator appears before operands.
+
+* If we traverse the tree in different order we will get the expression in different notation.
+
+* For Ex:
+
+```py
+def print_tree_postorder(tree):
+   if tree==None: return
+
+   print_tree_postorder(tree.left)
+   print_tree_postorder(tree.right)
+   print tree.cargo
+
+   
+
+```
+
+
+
+
+
+
