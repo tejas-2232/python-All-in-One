@@ -1017,6 +1017,5 @@ def print_tree_inorder(tree):
 
 ```
 
-
-
-
+* The result is ```1 + 2 * 3``` , which is the infix expression.
+* Inorder traversal is not that sufficient to generate an infix expression.
