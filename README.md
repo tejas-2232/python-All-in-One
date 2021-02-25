@@ -1024,5 +1024,10 @@ def print_tree_inorder(tree):
 
 * In this part, we parse infix expression and build the corresponding expression Trees. For example, the expression ```(3 + 7) * 9 ``` yields one tree.
 
-* The parser we are writing will handle the expression that includes numbers, parentheses, and the operators + and *. We assume that the input string has already been tokenized into a python list(producing the list is the task given to you). 
+* The parser we are writing will handle the expression that includes numbers, parentheses, and the operators + and *. We assume that the input string has already been tokenized into a python list(producing the list is the task given to you).
 
+* the token list for (3+7) *9 is:
+
+```py
+['(',3,'+',7,')', '*', 9, 'end']
+```
