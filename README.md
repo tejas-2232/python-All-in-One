@@ -1031,3 +1031,6 @@ def print_tree_inorder(tree):
 ```py
 ['(',3,'+',7,')', '*', 9, 'end']
 ```
+
+* The end token is necessary to prevent the parser from reading further list
+* We are going to write one function for it.
