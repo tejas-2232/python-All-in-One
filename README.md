@@ -1034,3 +1034,6 @@ def print_tree_inorder(tree):
 
 * The end token is necessary to prevent the parser from reading further list
 * We are going to write one function for it.
+
+* The function is will take token_list and expected token as parameters. Then it will compare the expected token to the first token in the list.
+* If they match,it removes the token from list and returns ```True```  else  ```False```
