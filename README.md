@@ -1037,3 +1037,12 @@ def print_tree_inorder(tree):
 
 * The function is will take token_list and expected token as parameters. Then it will compare the expected token to the first token in the list.
 * If they match,it removes the token from list and returns ```True```  else  ```False```
+
+```py
+def get_token(token_list,expected):
+   if token_list[i] == expected:
+      del token_list[i]
+      return True
+   else:
+      return False
+```
