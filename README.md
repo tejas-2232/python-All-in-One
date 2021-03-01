@@ -1046,3 +1046,7 @@ def get_token(token_list,expected):
    else:
       return False
 ```
+
+* token_list refers to mutable object, the changes made here are visible to any other variable that refers to the same object.
+
+* The next function is get_number. It handles the operands.
