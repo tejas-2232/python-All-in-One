@@ -1049,4 +1049,15 @@ def get_token(token_list,expected):
 
 * token_list refers to mutable object, the changes made here are visible to any other variable that refers to the same object.
 
-* The next function is get_number. It handles the operands.
+* The next function is ```get_number```. It handles the operands.
+
+
+```py
+
+def get_number(token_list):
+    x =token_list[0]
+    if type(x) != type(0):return None
+    del token_list[0]
+    return Tree (x, None,None)
+ 
+```
