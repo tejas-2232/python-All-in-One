@@ -1051,6 +1051,7 @@ def get_token(token_list,expected):
 
 * The next function is ```get_number```. It handles the operands.
 
+* If the next number in token_list is number then get_number() removes it and returns leaf node containing number,Otherwise it returns None.
 
 ```py
 
@@ -1061,3 +1062,5 @@ def get_number(token_list):
     return Tree (x, None,None)
  
 ```
+
+
