@@ -1063,4 +1063,5 @@ def get_number(token_list):
  
 ```
 
-
+* Before moving ahead we should test the get_number() function.
+* we assign list of numbers to token_list.
