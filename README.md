@@ -1070,4 +1070,14 @@ def get_number(token_list):
 token_list = [9,11,'end']
 x= get_number(token_list)
 print_tree_postorder(x)
+
+print token_list
 ```
+```
+__OUTPUT:__
+
+[11,'end']
+```
+
+
+
