@@ -1079,5 +1079,6 @@ __OUTPUT:__
 [11,'end']
 ```
 
+* The next method is get_product, which builds an expression tree for products. A simple product has two numbers as operands like *3 x 7*
 
-
+* Let's see the code of get_product.
