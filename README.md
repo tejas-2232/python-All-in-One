@@ -1082,3 +1082,14 @@ __OUTPUT:__
 * The next method is get_product, which builds an expression tree for products. A simple product has two numbers as operands like *3 x 7*
 
 * Let's see the code of get_product.
+
+```py
+def get_product(token_list):
+  a = get_number(token_list):
+  if get_token(token_list, "*"):
+    b= get_number(token_list)
+
+
+
+
+```
