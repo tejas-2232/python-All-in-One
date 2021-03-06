@@ -1088,8 +1088,11 @@ def get_product(token_list):
   a = get_number(token_list):
   if get_token(token_list, "*"):
     b= get_number(token_list)
+    return Tree('*' , a,b)
+  else:
+    return a
+```.
 
 
-
-
-```
+* We assume that *get_number* succeeds and returns a singleton tree.
+*  
