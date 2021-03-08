@@ -1097,3 +1097,12 @@ def get_product(token_list):
 * We assume that _get_number_ succeeds and returns a singleton tree.
 * We have assigned first operand to a. If the next character is * , we get the second number and are ready to build the expression tree with a,b and operator.
 * If the next character is other than expected then we return the leaf node with a.
+
+For Example:
+
+```
+> token_list = [9,'*',11,'end']
+> tree = get_product(token_list)
+> print_tree_postorder(tree)
+```
+
