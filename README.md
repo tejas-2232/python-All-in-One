@@ -1104,5 +1104,7 @@ For Example:
 > token_list = [9,'*',11,'end']
 > tree = get_product(token_list)
 > print_tree_postorder(tree)
+ 
+9 11 *
 ```
 
