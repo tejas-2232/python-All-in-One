@@ -1100,6 +1100,8 @@ def get_product(token_list):
 
 For Example:
 
+> 1
+
 ```
 > token_list = [9,'*',11,'end']
 > tree = get_product(token_list)
@@ -1108,3 +1110,13 @@ For Example:
 9 11 *
 ```
 
+> 2
+
+
+```
+> token_list = [9,'+',11,'end']
+> tree = get_product(token_list)
+> print_tree_postorder(tree)
+ 
+9
+```
