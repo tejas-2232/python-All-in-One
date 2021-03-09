@@ -1125,3 +1125,5 @@ For Example:
 
 * Now we have to deal with compund products,like ```3*5*13```. We treat this expression as product of products, like ``` 3 * (5 * 13)```. 
  
+* By making a small change in ```get_product``` we can handle such long products 
+
