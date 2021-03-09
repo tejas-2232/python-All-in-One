@@ -1125,5 +1125,21 @@ For Example:
 
 * Now we have to deal with compund products,like ```3*5*13```. We treat this expression as product of products, like ``` 3 * (5 * 13)```. 
  
-* By making a small change in ```get_product``` we can handle such long products 
+* By making a small change in ```get_product``` we can handle such long products.
+
+* Let's see the code for that.
+
+```py
+def get_product(token_list):
+    a= get_number(token_list)
+    if get_token(token_list,'*'):
+        b=get_product(token_list)     # this line changed. recursive call
+        return Tree('*', a ,b )
+    else:
+        return a
+    
+```
+
+
+
 
