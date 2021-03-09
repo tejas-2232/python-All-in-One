@@ -1120,3 +1120,8 @@ For Example:
  
 9
 ```
+
+* In second Example, there is '+' operator than ' * ' so we returned only leaf(a=9)
+
+* Now we have to deal with compund products,like ```3*5*13```. We treat this expression as product of products, like ``` 3 * (5 * 13)```. 
+ 
