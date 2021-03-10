@@ -928,13 +928,13 @@ tree = Tree(1,Tree(2),Tree(3))
 
 ### Traversing trees
 
-* We alwways want to traverse any data structure that comes across us. Same way the most simple way to traverse Tree is recursively.
+* We always want to traverse any data structure that comes across us. Same way the most simple way to traverse Tree is recursively.
 * For Example, if the tree contains integers as cargo, the below function will return their sum.
 
 <br>
 
 ```py
-def totol(tree):
+def total(tree):
   if tree == None: return 0
   return total(tree.left) + total(tree.right) +tree.cargo
 
@@ -959,13 +959,13 @@ def totol(tree):
 
 > tree = Tree ('+', Tree(1), Tree(' * ' , Tree(2), Tree(3)))
 
-* order of operation is; the multiplication is first and then second opearation of addition.
+* order of operation is- the multiplication is first and then second opearation of addition.
 * These expression Trees can be used to convert expressions like postfix,prefix,infix to each other.
 
 
 ### Traversing the Trees 
 
-* we can tracerse the expression trees and print the content like this:
+* we can traverse the expression trees and print the content like this:
 
 ```py
 def print_tree(tree):
