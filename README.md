@@ -1139,7 +1139,7 @@ def get_product(token_list):
         return a
     
 ```
-
+* So this is how we build expression trees in python. 
 
 
 
