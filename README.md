@@ -1143,3 +1143,6 @@ def get_product(token_list):
 
 ## Different types of trees
 
+Binary Tree
+Binary search tree
+AVL Tree
