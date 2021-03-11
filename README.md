@@ -1141,5 +1141,5 @@ def get_product(token_list):
 ```
 * So this is how we build expression trees in python. 
 
-
+## Different types of trees
 
