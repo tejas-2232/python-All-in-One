@@ -1139,7 +1139,20 @@ def get_product(token_list):
         return a
     
 ```
+* In other words, a product can be eithera singleton or tree with * at the root, a number of the left, and a product on the right.
+* Let's test a new example with compound product.
+
+```py
+
+ ```
+
+
+
+
+
 * So this is how we build expression trees in python. 
+
+
 
 ## Different types of trees
 
