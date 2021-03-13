@@ -1144,7 +1144,15 @@ def get_product(token_list):
 
 ```py
 
- ```
+> token_list = [2, '*', 3, '*', 5, '*', 7, '*', 'end']
+ 
+> tree = get_product(token_list)
+
+> print_tree_postorder(tree)
+
+output: 2 3 5 7 * * *
+
+```
 
 
 
