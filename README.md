@@ -1154,6 +1154,13 @@ output: 2 3 5 7 * * *
 
 ```
 
+* Coming to next point we can add ability to parse the sums. 
+* For us sum can be a tree with ```+``` at root, a product on the left and sum on the right or a sum can be just a product.
+
+* There is one interesting property called as *basis of parsing algorithm.*
+
+* With its help we can represent any expression without parenthesis as sum of products.
+
 
 
 <hr>
@@ -1163,7 +1170,7 @@ output: 2 3 5 7 * * *
 
 
 
-## Different types of trees
+### Different types of trees
 
 Binary Tree
 Binary search tree
