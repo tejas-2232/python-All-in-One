@@ -1178,7 +1178,23 @@ def get_sum(token_list):
 
 ```
 
+* Now we have to test it with ```9 * 11 +5 *7 ```
 
+
+```
+> token_list = [9, '*', 11, '+', 5, '*', 7, 'end']
+> tree = get_sum(token_list)
+>print_tree_postorder(tree)
+
+Output:
+
+
+9 11 * 5 7 * +
+
+```
+
+<hr>
+<hr>
 <hr>
 
 
