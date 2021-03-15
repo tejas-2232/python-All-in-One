@@ -1161,6 +1161,22 @@ output: 2 3 5 7 * * *
 
 * With its help we can represent any expression without parenthesis as sum of products.
 
+* ```get_sum()``` function tries to build a tree with a product on the left and sum on the right. But if it doesn't find a *+*, it just builds a product.
+
+* Let's have a look at example;
+
+```py
+def get_sum(token_list):
+   a = get_product(token_list)
+   if get_token(token_list, '+'):
+      
+      b=get_sum(token_list)
+      
+      return Tree ('+', a, b)
+   else:
+      return a
+
+```
 
 
 <hr>
