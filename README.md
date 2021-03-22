@@ -1192,6 +1192,10 @@ Output:
 9 11 * 5 7 * +
 
 ```
+* Finally, we will move towards handling parenthesis.
+* Anywhere in the expresion Where there can be a number ,there can be an entire sum enclosed in parenthesis.
+
+
 
 <hr>
 <hr>
