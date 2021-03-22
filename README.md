@@ -1196,6 +1196,21 @@ Output:
 * Anywhere in the expresion Where there can be a number ,there can be an entire sum enclosed in parenthesis.
 
 
+```py
+
+def get_number(token_list):
+    if get_token(token_list, '(' ):
+        x = get_sum(token_list)       # get the sub expression
+        get_token(token_list,')')     # remove the closing parenthesis
+        return x
+    else:
+        x = token_list[0]
+        if type(x) != type(0): return None
+        token_list[0:1] = []
+        return Tree(x,None,None)
+
+
+```
 
 <hr>
 <hr>
